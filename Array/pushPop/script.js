@@ -1,3 +1,6 @@
+//Push - adds element to the end of the array
+//Pop - deleats the last element in the array and show it
+
 // Task 1
 const array1 = ["Ukraine", "Canada", "Germany", "Japan", "Australia"];
 console.log(array1);
