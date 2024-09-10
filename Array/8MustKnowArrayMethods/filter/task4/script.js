@@ -51,8 +51,7 @@ const filterButton = document.getElementById("filterButton");
 
 filterButton.addEventListener("click", function () {
     let filterFunctionByGpa = students.filter(function (elem) {
-        return inputField.value <= elem.gpa;
-
+        return elem.gpa >= inputField.value;
     });
     displayDataAboutStudents(filterFunctionByGpa);
 
